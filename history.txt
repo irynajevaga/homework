@@ -1,0 +1,16 @@
+  397  nano .gitignore
+  398  git checkout -b feature
+  399  git add README.md .gitignore
+  400  git status
+  401  cd homework
+  402  ls -al
+  403  touch .gitinore
+  404  nano .gitignore
+  405  git add README.md .gitignore
+  406  git commit -m "Добавлены изменения в файлы README.md и .gitignore"
+  407  git checkout -b feature
+  408  git push origin feature
+  409  git commit --amend -m "Добавлены изменения в файлы README.md и .gitignore (amend)"
+  410  git checkout main
+  411  git merge feature
+  412  history
